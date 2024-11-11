@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Community</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inknut+Antiqua:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <div class="header-container">
+            <img src="images/logo.png" alt="GURU-Z Logo" class="logo">
+            <nav class="nav-links">
+                <button onclick="navigate('about')">About</button>
+                <button onclick="navigate('courses')">Courses</button>
+                <button onclick="navigate('community')">Community</button>
+                <button onclick="navigate('contact')">Contact</button>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Main Content Section -->
+    <main class="main-content community-content">
+        <!-- Title Section -->
+        <h1 class="title-animation">Traders Community Kya Hai?</h1>
+        
+        <!-- Video Box Section -->
+        <div class="video-container">
+            <div class="video-box">
+                <h2>Explore Our Community</h2>
+                <!-- Embedded video from Google Drive -->
+                <iframe 
+                    id="video-frame" 
+                    src="https://drive.google.com/file/d/1L7CgBXMlS3A6gTao6AcH_gKHkX33zz7w/preview" 
+                    width="640" 
+                    height="360" 
+                    frameborder="0" 
+                    allow="autoplay; encrypted-media" 
+                    allowfullscreen>
+                </iframe>
+            </div>
+        </div>
+    </main>
+
+    <div class="demat-section">
+        <h2>Open A Demat Account!!</h2>
+        <img src="images/target-4755_512.gif" alt="Downward Arrow" class="down-arrow"> <!-- Placeholder for the GIF arrow -->
+
+        <div class="account-options">
+            <!-- Zerodha Option -->
+            <div class="account-box">
+                <a href="https://zerodha.com/?c=KO9763&s=CONSOLE" target="_blank" class="account-link">
+                    <img src="images/Zerodha-Logo.png" alt="Zerodha Logo" class="broker-logo">
+                    <h3>Open Account</h3>
+                    <p>Flat Rs 20 per order</p>
+                    <button class="custom-button">Open Account
+                        <span></span>
+                    </button>
+                </a>
+            </div>
+
+            <!-- Upstox Option -->
+            <div class="account-box">
+                <a href="https://upstox.com/open-account/?f=38A4JX" target="_blank" class="account-link">
+                    <img src="images/upstox.png" alt="Upstox Logo" class="broker-logo">
+                    <h3>Open Account</h3>
+                    <p>Flat Rs 20 per order</p>
+                    <button class="custom-button">Open Account
+                        <span></span>
+                    </button>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer Section -->
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-logo">
+                <img src="images/logo.png" alt="Logo" class="footer-logo-img">
+                <p>TRADING MADE EASY</p>
+            </div>
+            <div class="footer-links">
+                <a href="#">Home</a>
+                <a href="about.html">About</a>
+                <a href="#">Open Demat</a>
+                <a href="#">Email Us</a>
+            </div>
+            <div class="footer-social-icons">
+                <a href="#" class="social-icon"><img src="images/x.png" alt="Twitter"></a>
+                <a href="#" class="social-icon"><img src="images/WhatsApp_icon.png" alt="WhatsApp"></a>
+                <a href="#" class="social-icon"><img src="images/linked.png" alt="Linkedin"></a>
+                <a href="#" class="social-icon"><img src="images/youtube.png" alt="YouTube"></a>
+                <a href="#" class="social-icon"><img src="images/insta.png" alt="Instagram"></a>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>Made with ❤️ by <a href="#">Sanyam Babel</a> | © 2024 GURU-Z | All Rights Reserved</p>
+            <div class="footer-bottom-links">
+                <a href="#">Disclaimer</a>
+                <a href="#">Privacy Policy</a>
+                <a href="#">Refund Policy</a>
+            </div>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
